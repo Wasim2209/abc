@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        nav {
+            width: 100%;
+            height: 65px;
+            background-color: #dadbaa;
+            line-height: 65px;
+            position: fixed;
+            z-index: 1;
+            border-bottom: 1px solid #252525;
+        }
+
+        nav a {
+            border-right: 1px solid #4487aa;
+            padding: 21px 25px;
+            color: #252525;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            background-color: #bababa;
+        }
+        #sec1{
+            position: absolute;
+            top: 65px;
+            height:700px;
+            width:100%;
+            text-align: center;
+            font-size: 25px;
+            background-color: #9fc4d8;
+            line-height: 700px;
+            border-bottom: 1px solid gray;
+        }
+        #sec2{
+            height:700px;
+            width:100%;
+            text-align: center;
+            font-size: 25px;
+            background-color: #9be4de;
+            line-height: 700px;
+            border-bottom: 1px solid gray;
+        }
+        #sec3{
+            height:700px;
+            width:100%;
+            text-align: center;
+            font-size: 25px;
+            background-color: #c485db;
+            line-height: 700px;
+            border-bottom: 1px solid gray;
+        }
+        #sec4{
+            height:700px;
+            width:100%;
+            text-align: center;
+            font-size: 25px;
+            background-color: #dadb80;
+            line-height: 700px;
+            border-bottom: 1px solid gray;
+        }
+        .name{
+            height:100px;
+            width:100%;
+            text-align: center;
+            text-transform: capitalize;
+            line-height:100px;
+            font-size:30px;
+            background-color: aquamarine;
+        }
+        div a#my{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#sec1" id="up"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+        <a href="#sec2"><i class="fa-solid fa-gear"></i>&nbsp;Service</a>
+        <a href="#sec3"><i class="fa-solid fa-phone"></i>&nbsp;Contact</a>
+        <a href="#sec4"><i class="fa-solid fa-circle-info"></i>&nbsp;About Us</a>
+    </nav>
+    <div id="sec1">Home</div>
+    <div id="sec2">Service</div>
+    <div id="sec3">Contact</div>
+    <div id="sec4">About Us</div>
+    <div class="name"><a href="#up" id="my">Ziya</a></div>
+</body>
+
+</html>
